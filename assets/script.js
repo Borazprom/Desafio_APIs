@@ -33,7 +33,7 @@ async function getAndCreateDataToChart(series) {
   });
   const datasets = [
     {
-      label: "Valor",
+      label: "Valor ultimo 10 dias",
       borderColor: "rgb(255, 99, 132)",
       data,
     },
